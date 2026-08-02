@@ -163,7 +163,7 @@ export default function Hero() {
             ];
             return (
                 <div className="py-2 overflow-x-auto custom-scrollbar select-none">
-                    <pre className="text-blue-400 font-mono text-[7px] min-[380px]:text-[8.5px] min-[440px]:text-[10px] sm:text-xs font-bold leading-tight tracking-tight sm:tracking-normal inline-block whitespace-pre">
+                    <pre className="text-blue-400 font-mono text-[5px] min-[360px]:text-[6px] min-[400px]:text-[7.5px] min-[480px]:text-[9px] sm:text-xs font-bold leading-tight tracking-tighter sm:tracking-normal inline-block whitespace-pre">
                         {bannerLines.join("\n")}
                     </pre>
                 </div>
