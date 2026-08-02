@@ -205,7 +205,7 @@ export const translations = {
                 submitBtn: "Gửi Tin Nhắn",
                 sendingBtn: "Đang Gửi...",
                 autoReplyNotice: "⚡ Hệ thống sẽ tự động gửi thư xác nhận đã nhận mail về email của bạn.",
-                successTitle: "✓ Gửi tin nhắn thành công!",
+                successTitle: "Gửi tin nhắn thành công!",
                 successDesc: "Cảm ơn bạn! Ngô Đức Mạnh đã nhận được email và sẽ phản hồi lại trong thời gian ngắn nhất.",
             },
             info: {

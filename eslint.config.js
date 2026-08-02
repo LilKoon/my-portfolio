@@ -19,10 +19,11 @@ export default defineConfig([
       parserOptions: { ecmaFeatures: { jsx: true } },
     },
     plugins: {
-      'jsx-a11y': jsxA11yX,
+      'jsx-a11y-x': jsxA11yX,
     },
     rules: {
       ...jsxA11yX.configs.recommended.rules,
+      'react-refresh/only-export-components': ['warn', { allowConstantExport: true }],
     },
   },
 ])
