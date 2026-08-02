@@ -157,13 +157,13 @@ export default function Hero() {
 
         if (item.outputType === "banner") {
             const bannerLines = [
-                "█▄  █ ▄█▀▀█ ▄█▀▀█▄   █▀▀█  █  █ ▄█▀▀█   █▄  ▄█ ▄█▀▀█▄ █▄  █ █  █",
-                "█ ▀▄█ █  ▄▄ █    █   █   █ █  █ █       █ ▀▀ █ █▀▀▀▀█ █ ▀▄█ █▀▀█",
-                "█   █ ▀█▄▄█ ▀█▄▄█▀   █▄▄█  ▀▄▄▀ ▀█▄▄█   █    █ █    █ █   █ █  █",
+                "█▄\u00A0\u00A0█\u00A0▄█▀▀█\u00A0▄█▀▀█▄\u00A0\u00A0\u00A0█▀▀█\u00A0\u00A0█\u00A0\u00A0█\u00A0▄█▀▀█\u00A0\u00A0\u00A0█▄\u00A0\u00A0▄█\u00A0▄█▀▀█▄\u00A0█▄\u00A0\u00A0█\u00A0█\u00A0\u00A0█",
+                "█\u00A0▀▄█\u00A0█\u00A0\u00A0▄▄\u00A0█\u00A0\u00A0\u00A0\u00A0█\u00A0\u00A0\u00A0█\u00A0\u00A0\u00A0█\u00A0█\u00A0\u00A0█\u00A0█\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0█\u00A0▀▀\u00A0█\u00A0█▀▀▀▀█\u00A0█\u00A0▀▄█\u00A0█▀▀█",
+                "█\u00A0\u00A0\u00A0█\u00A0▀█▄▄█\u00A0▀█▄▄█▀\u00A0\u00A0\u00A0█▄▄█\u00A0\u00A0▀▄▄▀\u00A0▀█▄▄█\u00A0\u00A0\u00A0█\u00A0\u00A0\u00A0\u00A0█\u00A0█\u00A0\u00A0\u00A0\u00A0█\u00A0█\u00A0\u00A0\u00A0█\u00A0█\u00A0\u00A0█",
             ];
             return (
                 <div className="py-2 overflow-x-auto custom-scrollbar select-none">
-                    <pre className="text-blue-400 font-mono text-[2.2vw] sm:text-xs font-bold leading-tight tracking-tighter sm:tracking-normal inline-block whitespace-pre">
+                    <pre className="text-blue-400 font-mono text-[1.9vw] min-[380px]:text-[2.1vw] sm:text-xs font-bold leading-tight tracking-tighter sm:tracking-normal inline-block whitespace-pre">
                         {bannerLines.join("\n")}
                     </pre>
                 </div>
@@ -244,7 +244,7 @@ export default function Hero() {
 
                 {/* Right Column: Interactive Command Prompt Window */}
                 <div className="lg:col-span-5 w-full">
-                    <div className="bg-slate-900 rounded-2xl shadow-2xl border border-slate-800 overflow-hidden flex flex-col h-[520px] sm:h-[500px]">
+                    <div className="bg-slate-900 rounded-2xl shadow-2xl border border-slate-800 overflow-hidden flex flex-col h-[580px] sm:h-[500px]">
                         {/* Terminal Header Bar */}
                         <div className="px-3.5 py-2.5 sm:px-4 sm:py-3 bg-slate-950/80 border-b border-slate-800 flex items-center justify-between">
                             {/* Mac Window dots */}
